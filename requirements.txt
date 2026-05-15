@@ -3,5 +3,3 @@ httpx==0.24.1
 pycryptodome==3.18.0
 protobuf==3.20.3
 gunicorn==21.2.0
-setuptools==65.5.0
-wheel==0.38.4
