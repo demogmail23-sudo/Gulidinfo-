@@ -35,7 +35,7 @@ def ensure_token_sync(region):
         return jwt_tokens[region]
     
     accounts = {
-        "IND": ("4471767672", "SEXTY_MODS_IND_REOPRZXEW"),
+        "IND": ("4821491506", "ZAINUBYSTARGMR2PTJn2"),
         "BD": ("4558447129", "SEXTY_MODS_IND_QCZBNBQKO"),
         "BR": ("4627778236", "SEXTY_MODS_IND_O8ALMMBEF"),
         "US": ("3333333333", "xxx")
