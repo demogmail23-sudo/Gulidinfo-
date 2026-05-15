@@ -1,3 +1,18 @@
+# app.py - bilkul start mein
+import os
+import sys
+
+# Fix for pkg_resources
+try:
+    import pkg_resources
+except ImportError:
+    import setuptools
+    pkg_resources = setuptools
+
+# Python version check
+print(f"Python version: {sys.version}")
+
+# Rest of your imports
 import httpx
 import time
 import re
@@ -9,6 +24,9 @@ from concurrent.futures import ThreadPoolExecutor
 from flask import Flask, request, jsonify
 from datetime import datetime
 import asyncio
+import google.protobuf
+print(f"Protobuf version: {google.protobuf.__version__}")
+
 import data_pb2
 import encode_id_clan_pb2
 
